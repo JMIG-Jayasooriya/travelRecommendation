@@ -73,3 +73,35 @@ body { font-family: Arial, sans-serif; }
     text-align: center;
     color: white;
   }
+  .page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .page h1 { margin-bottom: 15px; color: #0b3d5c; }
+  .page h2 { margin: 30px 0 15px; color: #0b3d5c; }
+  .intro { line-height: 1.7; margin-bottom: 20px; }
+  
+  .team { display: flex; gap: 20px; flex-wrap: wrap; }
+  
+  .team-card {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .contact-form { display: flex; flex-direction: column; gap: 10px; }
+  .contact-form input,
+  .contact-form textarea { padding: 10px; font-size: 1rem; }
+  .contact-form button {
+    padding: 12px;
+    background-color: #0b3d5c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
