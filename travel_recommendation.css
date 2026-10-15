@@ -1,0 +1,75 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #0b3d5c;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+}
+
+.nav-links a:hover { text-decoration: underline; }
+
+.search-area input { padding: 8px; width: 220px; }
+.search-area button { padding: 8px 14px; cursor: pointer; }
+
+.hero {
+  min-height: calc(100vh - 70px);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("images/hero.jpeg") center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content { max-width: 700px; padding: 20px; }
+
+.hero-content h1 { font-size: 2.6rem; margin-bottom: 20px; }
+
+.hero-content p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px; }
+
+.book-btn {
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  background-color: #f4a300;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book-btn:hover { background-color: #d88f00; }
+
+.social-icons { margin-top: 30px; }
+
+.social-icons a {
+  color: white;
+  font-size: 1.6rem;
+  margin: 0 10px;
+}
+
+.social-icons a:hover { color: #f4a300; }
+
+.hero {
+    min-height: calc(100vh - 70px);
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url("images/hero.jpg") center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
